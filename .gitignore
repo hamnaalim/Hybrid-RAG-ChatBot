@@ -4,7 +4,16 @@ __pycache__/
 *.egg-info/
 .venv/
 venv/
+env/
+
+# Secrets — NEVER commit real keys
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
 
 # Model / data artifacts
 data/vector_store/*
@@ -13,6 +22,11 @@ data/vector_store/*
 *.bm25.pkl
 *.meta.json
 evaluation/eval_results.json
+
+# Uploaded / personal documents (optional local-only)
+# Uncomment if you do not want raw docs pushed to GitHub:
+# data/raw_docs/**
+# !data/raw_docs/.gitkeep
 
 # IDE / OS
 .idea/
