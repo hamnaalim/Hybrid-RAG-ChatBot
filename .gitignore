@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Model / data artifacts
+data/vector_store/*
+!data/vector_store/.gitkeep
+*.faiss
+*.bm25.pkl
+*.meta.json
+evaluation/eval_results.json
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Hugging Face / caches
+.cache/
+*.pt
+*.bin

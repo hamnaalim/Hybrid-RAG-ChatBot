@@ -1,0 +1,24 @@
+{
+  "test_queries": [
+    {
+      "question": "How many annual leave days do employees receive each year?",
+      "reference": "Employees receive 20 annual leave days each calendar year."
+    },
+    {
+      "question": "How many unused annual leave days can employees carry forward?",
+      "reference": "Employees may carry forward up to 10 unused annual leave days into the next calendar year."
+    },
+    {
+      "question": "What is the notice period for resignation?",
+      "reference": "Employees must provide at least 30 days written notice before resignation."
+    },
+    {
+      "question": "Are remote work days allowed each week?",
+      "reference": "Eligible employees may work remotely up to 2 days per week with manager approval."
+    },
+    {
+      "question": "What is the company's policy on pet elephants?",
+      "reference": "I don't know based on the available documents."
+    }
+  ]
+}
